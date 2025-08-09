@@ -5,7 +5,7 @@ A compact line-following robot that uses an array of IR reflectance sensors (or 
 ---
 
 ## Features
-- 3-to-8 IR reflectance sensor array support (e.g., QTR, TCRT5000)
+- 2 IR reflectance sensor array support (e.g., QTR, TCRT5000)
 - Differential drive (two motors + motor driver)
 - Proportional or PID steering control
 - Optional intersection detection and line-loss recovery
