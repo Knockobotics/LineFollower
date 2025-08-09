@@ -1,6 +1,6 @@
 # Line Follower Robot
 
-A compact line-following robot that uses an array of IR reflectance sensors (or a camera) to detect a dark line on a light surface and steer a differential-drive chassis to follow it. Includes basic PID steering for smooth tracking and a simple state machine for intersections and stops.
+A compact line-following robot that uses an array of IR reflectance sensors to detect a dark line on a light surface and steer a differential-drive chassis to follow it. Includes basic PID steering for smooth tracking and a simple state machine for intersections and stops.
 
 ---
 
@@ -26,6 +26,7 @@ A compact line-following robot that uses an array of IR reflectance sensors (or 
 ---
 
 ## Wiring (typical)
+- connect to m1 and m3 for optimal results involving code.
 - Left motor → Motor driver channel A (IN1, IN2), enable to PWM pin  
 - Right motor → Motor driver channel B (IN3, IN4), enable to PWM pin  
 - Sensor array analog/digital outputs → A0..A4 (or digital pins for QTR digital mode)  
